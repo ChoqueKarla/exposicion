@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  
+  /* Historia */
+  .historia p {
+    color: #333;
+  }
+  
+  /* Estilo externo */
+  .externo {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Caja con propiedades básicas */
+  .caja {
+    background-color: #e0ffff;
+    border: 2px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* ID selector */
+  #especial {
+    color: #c0392b;
+    font-size: 18px;
+  }
+  
+  /* Flexbox */
+  .flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .flex-container .item {
+    background: #a3d2ca;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background: #f7d794;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Animaciones */
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    animation: mover 2s infinite alternate;
+    margin: 50px auto;
+  }
+  
+  @keyframes mover {
+    from { transform: translateX(0); }
+    to { transform: translateX(200px); }
+  }
+  
+  /* Diseño responsivo */
+  @media (max-width: 600px) {
+    body {
+      background-color: #ffeaa7;
+    }
+  }
+  
